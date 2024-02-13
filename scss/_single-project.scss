@@ -1,0 +1,162 @@
+//** The Pantry Boutique Food Hero area Start **//
+.boutique_area{
+    padding-top: 17.5rem;
+    padding-bottom: 17.2rem;
+
+    .pantry_heading{
+        font-family: $primaryFont;
+        font-weight: 400;
+
+        h2{
+            color: $black;
+            font-size: 4.8rem;
+            line-height: 100%;
+            font-weight: 400;
+        }
+        p{
+            color: #6A6A6A;
+            font-size: 3.6rem;
+            padding-top: 2rem;
+            line-height: 100%;
+        }
+
+    }
+
+       //** Tablet Responsive **//
+       @media #{$md}{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+      }
+
+      
+    //** Mobile Responsive **//
+    @media #{$xs}{
+      
+    .pantry_heading{
+
+       h2{
+           font-size: 3.9rem;
+       }
+       p{
+        font-size: 3rem;
+        br{
+            display: none;
+        }
+       }
+
+     }
+
+    }
+
+
+}
+//** The Pantry Boutique Food Hero area Ends **//
+
+
+//** Boutique Food Image area Start **//
+.food_image_area .row{
+    --bs-gutter-y: 8.2rem;
+
+    @media #{$xs}{
+        --bs-gutter-y: 3rem;
+    }
+
+    .foods_image a img{
+        width: 100%;
+     } 
+
+    
+}
+//** Boutique Food Image area Ends **//
+
+
+//** It was great pleasure work area Start **//
+.great_area{
+    padding-top: 17.6rem;
+    //padding-bottom: 5rem;
+
+    .pleasure_works{
+        color: $black;
+        font-family: $primaryFont;
+
+        h2{
+            font-size: 4.8rem;
+            font-weight: 300;
+            line-height: 120%;
+        }
+
+        .works_text{
+            margin-top: 2rem;
+            color: $black;
+            font-family: $primaryFont;
+
+            h4{
+                font-size: 2.2rem;
+                font-weight: 700;
+                line-height: 125%;
+                letter-spacing: -1.32px;
+            }
+            p{
+                padding: 0.5rem 0;
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 125%;
+                letter-spacing: -0.96px;
+            }
+
+
+            
+        }
+
+    }
+
+    //** Tablet Responsive **//
+       @media #{$md}{
+        padding-top: 8rem;
+
+        .pleasure_works{
+
+            .works_text{
+
+                h4{
+                    font-size: 3.5rem;
+                }
+                p{
+                    font-size: 3rem;
+                }
+            }
+
+        }
+
+    }
+
+    //** Mobile Responsive **//
+    @media #{$xs}{
+
+        
+        .pleasure_works{
+            h2{
+                font-size: 3.9rem;
+            }
+        }
+
+        .talk_text{
+
+            h2{
+                font-size: 3.5rem;
+            }
+            p{
+                font-size: 4rem;
+            }
+        }
+
+    }
+    
+
+}
+
+
+
+//** It was great pleasure work area Ends **//
+
+

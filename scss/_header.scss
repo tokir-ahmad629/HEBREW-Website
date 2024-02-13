@@ -1,0 +1,59 @@
+//** Header area  Start **//
+.site_header {
+	padding: 3.3rem 0;
+	background: #FFF;
+	box-shadow: 0 .4rem 2.2rem 0 rgba(0, 0, 0, 0.05);
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1024;
+	@media #{$xs}{
+		padding: 2rem 0;
+	}
+}
+
+
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+
+	a{
+		display: inline-flex;
+		align-items: center;
+		color: #000;
+		font-weight: 400;
+		font-size: 2rem;
+		letter-spacing: 0.1rem;
+		gap: 2rem;
+		&:hover{
+			color: gray;
+		}
+		&.active{
+			color: #FFF;
+		}
+	}
+	.active {
+		width: 100%;
+		padding: 0.9rem 4rem;
+		border-radius: 3rem;
+		background: blue;
+		text-align: center;
+	}
+
+	@media #{$xs}{
+		justify-content: center;
+		padding-top: 1rem;
+	}
+
+}
+
+
+.site_logo {
+	display: inline-block;
+	color: #000;
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+//** Header area  End **//

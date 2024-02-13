@@ -1,0 +1,142 @@
+//** accurate development partner Hero area Start **//
+.development_area{
+    padding-top: 13.9rem;
+    padding-bottom: 21.1rem;
+
+    .partner_heading{
+        font-family: $primaryFont;
+        
+        h2{
+            color: $black;
+            font-size: 4.8rem;
+            font-weight: 400;
+            line-height: 100%;
+            padding-left: 8rem;
+        }
+        p{
+            color: #6A6A6A;
+            font-size: 3.6rem;
+            padding-top: 2rem;
+            font-weight: 400;
+            line-height: 100%;
+        }
+    }
+
+   //** Tablet Responsive **//
+    @media #{$md}{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+
+        .partner_heading{
+            p{
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+    //** Mobile Responsive **//
+    @media #{$xs}{
+
+        .sm_heading{
+
+            h2{
+                font-size: 3.9rem;
+                padding-left: 0;
+            }
+            p{
+                font-size: 3rem;
+                padding-top: 3rem;
+                br{
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+
+}
+//** accurate development partner Hero area Ends **//
+
+
+
+//** Customized templates management area Start **//
+.customized_area{
+    .row{
+        --bs-gutter-x: 2.6rem;
+        margin-top: 12rem;
+
+    //** Tablet Responsive **//
+    @media #{$md}{
+        margin-top: 8rem;
+        .management_text{
+            padding-top: 4rem;
+            
+            p{
+                font-size: 4rem;
+            }
+            h2{
+                font-size: 5.2rem;
+                padding: 1.5rem 0;
+            }
+            a{
+                font-size: 3.8rem;
+            }
+        }
+    }
+
+    @media #{$xs}{
+        .management_text{
+            p{
+                font-size: 3rem;
+            }
+            h2{
+                font-size: 4rem;
+            }
+            a{
+                font-size: 3rem;
+            }
+        }
+    }
+      
+    
+    }
+
+}
+
+.customized_area{
+     
+    .management_text{
+        color: $black;
+        font-family: $primaryFont;
+
+        p{
+            font-size: 3.2rem;
+            font-weight: 300;
+            line-height: 100%;
+        }
+        h2{
+            font-size: 3.6rem;
+            padding: 1rem 0;
+            font-weight: 500;
+            line-height: 100%;
+        }
+        a{
+            font-size: 2rem;
+            font-weight: 300;
+            line-height: 100%;
+            text-decoration-line: underline;
+        }
+        
+    }
+
+    .templates_images a img{
+        width: 100%;
+     } 
+
+}
+
+//** Customized templates management area Ends **//
+
+
+

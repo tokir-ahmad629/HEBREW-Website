@@ -1,0 +1,252 @@
+//** Hero area Start **//
+.hero_area {
+    padding-top: 15rem;
+    padding-bottom: 16.3rem;
+
+    @media #{$md}{
+
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    @media #{$md}{
+
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+    }
+}
+
+.hero_heading {
+    font-family: $primaryFont;
+    font-weight: 400;
+    line-height: 100%;
+    padding-left: 4rem;
+    h2{
+        color: $black;
+        font-size: 7rem;
+        font-weight: 400;
+    }
+    p{
+        color: #6A6A6A;
+        font-size: 3.6rem;
+        padding-top: 2rem;
+        line-height: 100%;
+    }
+
+    @media #{$md}{
+
+        padding-left: 0;
+
+        h2{
+            font-size: 5rem;
+        }
+
+        p{
+            font-size: 3rem;
+        }
+
+    }
+
+    @media #{$xs}{
+        h2 {
+            font-size: 3.9rem;
+        }
+        p {
+            font-size: 3rem;
+            br{
+                display: none;
+            }
+        }
+    }
+
+}
+
+//** Hero area Ends **//
+
+
+//** Frist Image area Start **//
+.hero_image_area .row{
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 3rem;
+}
+
+.hero_images a img{
+    width: 100%;
+ } 
+
+.hero_text {
+    margin-top: 1.5rem;
+    color: $black;
+    font-family: $primaryFont;
+
+    h2{
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 125%; 
+        letter-spacing: -0.132rem;
+    }
+    p{
+        padding: 0.5rem 0;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: -0.096rem;
+    }
+
+    @media #{$xs}{
+        h2 {
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 2.6rem;
+        }
+    }
+    
+
+}
+//** Frist Image area Ends **//
+
+
+//** Second Text area Start **//
+.hero_texts_area {
+    padding-top: 14.7rem;
+    padding-bottom: 16.1rem;
+
+    @media #{$md}{
+        padding: 10rem 0;
+    }
+
+    @media #{$xs}{
+        padding: 4rem 0;
+    }
+
+}
+
+.text_descripton {
+    color: $black;
+    font-family: $primaryFont;
+    padding-left: 8rem;
+
+    @media #{$md}{
+        padding-left: 1rem;
+    }
+    
+    @media #{$xs}{
+        padding: 2rem 0;
+    }
+
+    h2{
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 120%;
+    }
+    h4{
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 125%;
+        letter-spacing: -0.132rem;
+    }
+    p{
+        color: $black;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: -0.096rem;
+    }
+
+    @media #{$xs}{
+
+        h2{
+            font-size: 2.8rem;
+        }
+        h4{
+            font-size: 2.8rem;
+        }
+        p{
+            font-size: 2.6rem;
+        }
+    }
+
+
+}
+
+//**Second Text area Ends **//
+
+
+//** Third Image area Start **//
+.footer_image_area{
+    .row{
+        --bs-gutter-x: 2.5rem;
+        --bs-gutter-y: 4rem;
+    }
+}
+//** Third Image area Ends **//
+
+
+//** Four Text area Start **//
+.talk_area{
+    padding-top: 17.1rem;
+    padding-bottom: 13.9rem;
+
+    .talk_text {
+        color: $black;
+        font-family: $primaryFont;
+       
+        h2{
+            max-width: 141.3rem;
+            font-size: 6.4rem;
+            line-height: 120%;
+            font-weight: 400; 
+        }
+        a{
+            font-size: 4rem;
+            line-height: 120%;
+            padding-top: 4rem;
+            font-weight: 400;
+            display: inline-block;
+            text-decoration: underline;
+        }
+
+    } 
+
+    @media #{$md}{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+
+        .talk_text{
+
+            h2{
+                font-size: 4.4rem;
+            }
+
+            a{
+                font-size: 3.5rem;
+            }
+        }
+
+    }
+
+    @media #{$xs}{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+
+        .talk_text{
+
+            h2{
+                font-size: 3.9rem;
+            }
+
+            a{
+                font-size: 3rem;
+            }
+        }
+
+    }
+
+}
+
+
+
+//** Four Text area Ends **//
+
+
+
